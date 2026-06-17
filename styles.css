@@ -1,0 +1,39 @@
+.cabeçalho{
+    display: flex;
+    background-color:#3a3281;
+    justify-content: center;
+    color:#ffffff;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    margin: 0;
+}
+
+.logo{
+    width: 150px;
+    height:150px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu{
+    background-color: #a6a6f0;
+    font-size: 30px;
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding: 0;
+    margin: 0px;
+    justify-content: center;
+
+
+}
+
+.item{
+    cursor: pointer;
+}
